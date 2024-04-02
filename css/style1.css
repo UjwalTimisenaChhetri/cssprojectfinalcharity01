@@ -1,0 +1,337 @@
+/* for about */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.logo{
+   float: left;
+   padding-bottom: 20px;
+  
+}
+
+.donate{
+   float: right;
+   padding: 15px 40px;
+   border-radius: 15px;
+  margin-top: -15px;
+  background-color: rgba(149, 14, 14, 0.851);
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+   
+}
+.donate:hover{
+   background-color: rgba(0, 0, 255, 0.423);
+}
+
+.nav{
+  
+   font-size: 20px;
+   text-align: center;
+}
+.nav li {
+   display: inline;
+   list-style: none;
+
+}
+.nav li a{
+   text-decoration: none;
+   padding-right: 100px;
+   color: black;
+}
+.navbar p{
+  display: inline-block;
+}
+.navbar{
+   border-bottom: 2px solid rgba(0, 0, 0, 0.203);
+   padding: 30px 10px;
+}
+
+.background{
+   background-image: url(../img/about.jpeg);
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 70vh;
+}
+.background h1{
+   font-family: "Poppins", sans-serif;
+ font-size: 50px;
+ font-style: normal;
+   
+}
+.first{
+   margin-bottom: 10%;
+   letter-spacing: 2px;
+}
+.second{
+   margin-top: 10%;
+   letter-spacing: 2px;
+   font-size: 20px;
+}
+.box{
+   
+  
+   display: inline-block;
+   
+   margin-top: 20%;
+   margin-left: 10%;
+   
+}
+.para{
+   display: inline-block;
+   
+   margin-top: 7%;
+}
+.donation{
+   display: flex;
+   margin: 4% 20%;
+}
+
+.handpic{
+   margin-left: 100px;
+}
+.subscribe{
+   background-color: black;
+   height: 25vh;
+}
+.partsub{
+   display: flex;
+   color: white;
+   justify-content: center;
+   
+}
+.subscribe h1{
+   margin-top: 3.5%;
+   padding-right: 10px;
+   
+   width: 25%;
+}
+.subscribe form{
+   margin-top: 5.3%;
+}
+.subscribe input{
+   padding: 30px 140px;
+   height: 40%;
+   font-size: 18px;
+   
+}
+.subscribe button{
+   border: none;
+   padding: 13px 22px;
+   border-radius: 15px;
+   background-color:rgba(15, 99, 141, 0.851);
+   font-size: 18px;
+   margin-left: 5px;
+   
+}
+.otherinfo{
+   color: white;
+   margin-top: 1px;
+   background-color: black;
+   height: auto;
+   
+   
+   padding-top: 3%;
+}
+.infor{
+   display: flex;
+}
+
+.otherinfo ul{
+   list-style: none;
+}
+.otherinfo .about h3{
+   border-bottom: 1px solid white;
+   margin-bottom: 30%;
+}
+.otherinfo .help h3{
+   border-bottom: 1px solid white;
+   margin-bottom: 30%;
+}
+.otherinfo .contact h3{
+   border-bottom: 1px solid white;
+   margin-bottom: 21%;
+}
+.otherinfo .event h3{
+   border-bottom: 1px solid white;
+   margin-bottom: 30%;
+}
+.otherinfo ul li{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+ .about, .help, .event, .contact{
+   margin-right: 7%;
+   margin-left: 7%;
+   
+}
+.medias{
+   display: flex;
+   justify-content: center;
+   margin-top: 4%;
+}
+.medias img{
+   width:5%;
+}
+.reserve{
+   padding-top: 10px;
+   text-align: center;
+}
+.flexing{
+   display: flex;
+   background-color: rgba(0, 0, 0, 0.166);
+   height: auto;
+   text-align: center;
+   
+}
+.flexing h1{
+  background-color: black;
+  color: white;
+}
+.flexing p{
+  background-color: white;
+}
+.team, .history, .story, .vision{
+
+   margin: 6% 2%;
+}
+.vid{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.vid h1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+video{
+  display: block;
+  margin: auto;
+  height: 50vh;
+}
+.member{
+  background-color: rgba(0, 0, 0, 0.129);
+  height: 15vh;
+}
+.member h1{
+  padding-top: 2%;
+text-align: center;
+}
+.name{
+  display: flex;
+  justify-content: center;
+}
+.name h3{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+@media screen and (max-width:1024px){
+  .nav li a{
+     padding-right: 25px;
+     font-size: 20px;
+     
+  }
+  .subscribe{
+     height: auto;
+   }
+    .subscribe h1{
+     font-size: 20px;
+    }
+    .subscribe input{
+     padding: 20px 50px;
+     height: 40%;
+     font-size: 18px;
+    }
+    .flexing{
+     flex-direction: column;
+  }
+  video{
+     height: 40vh;
+  }
+     
+}
+@media screen and (max-width:768px) {
+  .nav li a{
+     padding-right: 10px;
+     font-size: 13px;
+     
+  }
+  .handpic img{
+     padding-top: 30%;
+     height: 40vh;
+  }
+  .flexing{
+     flex-direction: column;
+  }
+  video{
+     height: 30vh;
+  }
+  .name{
+     height: auto;
+     flex-direction: column;
+     font-size: 10px;
+     
+  }
+  .subscribe{
+     height: auto;
+   }
+   
+  .subscribe h1{
+     font-size: 20px;
+    }
+    .subscribe input{
+     padding: 20px 50px;
+     height: 40%;
+     font-size: 18px;
+    }   
+}   
+
+@media screen and (max-width:568px) {
+  .nav li a{
+     padding-right: 7px;
+     font-size: 10px;
+     
+  }
+  .donate{
+     font-size: 10px;
+     padding: 14px 15px;
+  }
+  .handpic img{
+     padding-top: 30%;
+     height: 40vh;
+  }
+  .flexing{
+     flex-direction: column;
+  }
+  video{
+     height: 30vh;
+  }
+  .name{
+     height: auto;
+     flex-direction: column;
+     font-size: 10px;
+     
+  }
+  video{
+     height: 20vh;
+  }
+    .subscribe h1{
+     font-size: 15px;
+    }
+    .subscribe input{
+     padding: 20px 50px;
+     height: 40%;
+     font-size: 18px;
+     
+  }
+  .otherinfo li{
+     font-size: 10px;
+  }
+  .about, .help, .event, .contact{
+     margin-right: 3%;
+     margin-left: 3%;
+     
+  }
+}   

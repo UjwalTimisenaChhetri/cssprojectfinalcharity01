@@ -1,0 +1,589 @@
+/* for home */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.logo{
+   float: left;
+   padding-bottom: 20px;
+  
+}
+
+.donate{
+   float: right;
+   padding: 1.1% 2.9%;
+   border-radius: 15px;
+  margin-top: -0.8%;
+  background-color: rgba(149, 14, 14, 0.851);
+   
+}
+.donate:hover{
+   background-color: rgba(0, 0, 255, 0.423);
+}
+.donate {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+.nav{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 1.4em;
+   text-align: center;
+}
+.nav li {
+   display: inline;
+   list-style: none;
+
+}
+.nav li a{
+   text-decoration: none;
+   padding-right: 8%;
+   color: black;
+}
+.navbar p{
+  display: inline-block;
+}
+.navbar{
+   border-bottom: 2px solid rgba(0, 0, 0, 0.203);
+   padding: 2% 1%;
+}
+
+.background{
+   background-image: url(../img/mainbackground.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 85vh;
+}
+.background h1{
+   color: white;
+   margin-bottom: 5%;
+}
+.donatebox{
+   padding: 6% 2%;
+  
+   display: inline-block;
+   border: 8px solid rgba(15, 61, 141, 0.87);
+   margin-top: 22%;
+   margin-left: 10%;
+   background-color: rgba(0, 0, 0, 0.368);
+}
+.donate2{
+   margin-top: 2%;
+   margin-right: 37%;
+   padding: 4% 7%;
+   
+}
+.donate2:hover{
+   color: white;
+}
+.donate2{
+   background-color:rgba(15, 99, 141, 0.851) ;
+   border-radius: 20px;
+   border: 2px;
+}
+.donate2 {
+   text-decoration: none;
+   color: black;
+   font-size: 1.3em;
+}
+.community{
+   background-color: rgba(15, 61, 141, 0.87);
+   height: 20vh;
+   text-align: center;
+   font-size: 1.8em;
+   
+   
+}
+.community h1{
+   
+   padding-top:2% ;
+
+  
+}
+.join{
+   margin-bottom: -20%;
+   padding: 1% 2%;
+   border-radius: 10px ;
+   border: 2px;
+   background-color: black;
+}
+.join {
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+}
+.para{
+   display: inline-block;
+   width: 30%;
+   margin-top: 7%;
+}
+.donation{
+   display: flex;
+   margin: 4% 20%;
+}
+
+.handpic{
+   margin-left: 10%;
+}
+.fundraise{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.33),
+   rgba(0, 0, 0, 0.533)), url(../img/hands.jpeg) ;
+   height: auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.para2{
+   width: 38%;
+   color: white;
+   padding-top: 8%;
+   padding-left: 9%;
+   margin-bottom: 9%;
+}
+.button{
+  display: flex;
+   border-top: 1px solid white;
+}
+.button1, .button2, .button3, .button4 {
+   color: white;
+   background-color: rgba(0, 0, 0, 0);
+   padding: 4.1% 4.31%;
+   border: none;
+   text-decoration:none ;
+   
+}
+
+.button1, .button2, .button3{
+   border-right: 1px solid white;
+}
+.button1:hover{
+   background-color:rgba(15, 61, 141, 0.87) ;
+}
+.button2:hover{
+   background-color:rgba(15, 61, 141, 0.87) ;
+}
+.button3:hover{
+   background-color:rgba(15, 61, 141, 0.87) ;
+}
+.button4:hover{
+   background-color:rgba(15, 61, 141, 0.87) ;
+}
+.para3{
+   margin-left: 22%;
+   margin-top: 7%;
+   width: 30%;
+}
+.para3 h1{
+   margin-bottom: 2%;
+   border-bottom: 1px solid white;
+
+}
+.service1, .service2{
+   height: 39%;
+   width: 39%;
+   margin-left: 100px;
+   margin-top: 6%;
+}
+.service{
+   background-color:rgba(128, 128, 128, 0.13);
+   margin-top: 4%;
+   
+   display: flex;
+   height: auto;
+   margin-bottom: 3%;
+}
+.ways h1{
+   border-bottom: 1px solid rgba(15, 61, 141, 0.87);
+   text-align: center;
+   margin-left: 6%;
+   margin-right: 6%;
+}
+.wayimg{
+  display: flex;
+
+}
+.wayimg figure{
+  
+  margin: 3% 5%;
+}
+
+figcaption p{
+  border-top:1px solid rgba(15, 61, 141, 0.87) ;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 1.6em;
+}
+.wayimg img{
+  width: 100%;
+  
+}
+figure div{
+  margin-bottom: 5%;
+}
+figure a {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 2%;
+  
+  text-decoration: none;
+  color: white;
+
+}
+
+  
+.partner{
+  background-color: rgba(128, 128, 128, 0.13) ;
+}
+.mainpartner h1{
+  padding-top: 3%;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-bottom: 1px solid rgba(15, 61, 141, 0.87);
+  text-align: center;
+}
+.mainpartner img{
+  border: 1px solid rgba(0, 0, 0, 0.179);
+  display: block;
+  width: 20%;
+  margin: auto;
+  margin-top: 3%;
+}
+.partners{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+.other{
+  border-bottom: 1px solid rgba(15, 61, 141, 0.87) ;
+  margin-top: 3%;
+  margin-left: 10% ;
+  margin-right:10% ;
+  text-align: center;
+}
+.partners img{
+  border: 1px solid rgba(0, 0, 0, 0.179);
+  width: 20%;
+  margin-left: 4%;
+  margin-right: 4%;
+  
+}
+.subscribe{
+  background-color: black;
+  height: 25vh;
+}
+.partsub{
+  display: flex;
+  color: white;
+  justify-content: center;
+  
+}
+.subscribe h1{
+  margin-top: 3.5%;
+  padding-right: 3%;
+  
+  width: 25%;
+}
+.subscribe form{
+  margin-top: 5.3%;
+}
+.subscribe input{
+  padding: 30px 140px;
+  height: 40%;
+  font-size: 18px;
+  
+}
+.subscribe button{
+  border: none;
+  padding: 13px 22px;
+  border-radius: 15px;
+  background-color:rgba(15, 99, 141, 0.851);
+  font-size: 18px;
+  margin-left: 5px;
+  
+}
+.otherinfo{
+  color: white;
+  margin-top: 1px;
+  background-color: black;
+  height: auto;
+  
+  
+  padding-top: 3%;
+}
+.infor{
+  display: flex;
+}
+
+.otherinfo ul{
+  list-style: none;
+}
+.otherinfo .about h3{
+  border-bottom: 1px solid white;
+  margin-bottom: 30%;
+}
+.otherinfo .help h3{
+  border-bottom: 1px solid white;
+  margin-bottom: 30%;
+}
+.otherinfo .contact h3{
+  border-bottom: 1px solid white;
+  margin-bottom: 21%;
+}
+.otherinfo .event h3{
+  border-bottom: 1px solid white;
+  margin-bottom: 30%;
+}
+.otherinfo ul li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.about, .help, .event, .contact{
+  margin-right: 7%;
+  margin-left: 7%;
+  
+}
+.medias{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+.medias img{
+  width:5%;
+}
+.reserve{
+  padding-top: 10px;
+  text-align: center;
+}
+@media screen and (max-width:1400px){
+  
+ 
+  
+    
+  .donatebox{
+     padding: 85px 25px;
+    
+     
+     margin-top: 17%;
+     margin-left: 1.3%;
+     
+  }
+  
+  .community{
+     height: 25vh;
+  }
+  .service{
+     height: 75vh;
+  }
+  
+  
+ .para2{
+  font-size: 15px;
+ }
+ .button{
+  font-size: 13px;
+ }
+ .para{
+  font-size: 14px;
+ }
+ .para3 p{
+  font-size: 14px;
+ }
+
+ .subscribe{
+  height: auto;
+}
+ .subscribe h1{
+  font-size: 20px;
+ }
+
+.medias{
+  
+  
+  margin-top: 2%;
+}
+  
+}
+
+@media screen and (max-width:1024px){
+  .nav li a{
+     padding-right: 25px;
+     font-size: 20px;
+     
+  }
+ 
+  .donatebox{
+     padding: 90px 30px;
+  }
+  
+  
+  .handpic img{
+     padding-top: 20%;
+     height: 50vh;
+  }
+  
+ .para2{
+  font-size: 15px;
+ }
+ .para3 p{
+  font-size: 9px;
+ }
+ .para{
+  font-size: 14px;
+ }
+ 
+ .service img{
+  height: auto;
+ 
+ }
+.subscribe{
+  height: auto;
+}
+ .subscribe h1{
+  font-size: 20px;
+ }
+ .subscribe input{
+  padding: 20px 50px;
+  height: 40%;
+  font-size: 18px;
+  
+}
+}
+@media screen and (max-width:768px) {
+  .nav li a{
+     padding-right: 10px;
+     font-size: 13px;
+     
+  }
+  .background h1{
+     font-size: 20px;
+  }
+  .donate{
+     padding: 10px;
+  }
+  .donatebox{
+     padding: 40px 15px;
+  }
+  .donate2{
+     padding: 10px 20px;
+      font-size:13px;
+  }
+  .background{
+     height: 45vh;
+  }
+  .handpic img{
+     padding-top: 30%;
+     height: 40vh;
+  }
+  
+ .para2{
+  font-size: 10px;
+ }
+ .button{
+  font-size: 10px;
+ }
+ .para{
+  font-size: 14px;
+ }
+ .para3 p{
+  font-size: 9px;
+ }
+ .service img{
+  height: 25vh;
+  width: 25vh;
+ 
+ }
+ figure a {
+  padding: 6px;
+  font-size: 10px;
+ }
+ .subscribe h1{
+  font-size: 20px;
+ }
+ .subscribe input{
+  padding: 20px 50px;
+  height: 40%;
+  font-size: 18px;
+  
+}
+}
+@media screen and (max-width:568px){
+  .nav li a{
+     padding-right: 7px;
+     font-size: 10px;
+     
+  }
+  .donate{
+     font-size: 10px;
+     padding: 14px 15px;
+  }
+  .background h1{
+     font-size: 20px;
+  }
+  .donatebox{
+     padding: 40px 15px;
+  }
+  .donate2{
+     font-size: 12px;
+     padding: 5px 10px;
+     margin-right: 10%;
+  }
+  .background{
+     height: 45vh;
+  }
+  .handpic img{
+     padding-top: 30%;
+     height: 40vh;
+  }
+  .fundraise{
+     height: auto;
+  }
+  .para{
+     font-size: 12px;
+  }
+ .para2{
+  font-size: 10px;
+ }
+ .button{
+  font-size: 10px;
+ }
+ .community{
+  height: 15vh;
+ }
+ .community h1{
+  font-size:30px;
+ }
+ .para3 p{
+  font-size: 9px;
+ }
+ .service img{
+  height: 20vh;
+  width: 20vh;
+ 
+ }
+ figure a {
+  padding: 6px;
+  font-size: 10px;
+ }
+ .subscribe h1{
+  font-size: 15px;
+ }
+ .subscribe input{
+  padding: 20px 50px;
+  height: 40%;
+  font-size: 18px;
+  
+}
+.otherinfo li{
+  font-size: 10px;
+}
+.about, .help, .event, .contact{
+  margin-right: 3%;
+  margin-left: 3%;
+  
+}
+
+}

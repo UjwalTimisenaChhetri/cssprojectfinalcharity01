@@ -1,0 +1,67 @@
+/* form */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    float: left;
+    padding-bottom: 20px;
+   
+}
+.navbar li{
+    list-style: none;
+    text-align: center;
+    
+}
+.navbar a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgba(18, 25, 153, 0.56);
+}
+.navbar{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.203);
+    padding: 30px 10px;
+    height: 10vh;
+}
+.navbar h3{
+    float: right;
+}
+main{
+    margin-top: 3%;
+    display: flex;
+    
+}
+main img{
+    height:90vh;
+}
+form h1{
+    margin-bottom: 10%;
+    color: rgba(0, 0, 255, 0.407);
+}
+.infor{
+    background-color: rgba(0, 0, 0, 0.061);
+}
+form{
+    
+    margin-right: 20%;
+    margin-left: 10%;
+}
+.purpose{
+    margin-top: 10%;
+}
+.dona{
+    margin-top: 8%;
+    background-color: rgba(0, 0, 0, 0.061);
+    margin-bottom: 8%;
+}
+h3{
+    color:  rgba(0, 0, 255, 0.407);
+    letter-spacing: 2px;
+}
+.message input{
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 0, 0.633);
+    border-radius: 5px;
+}

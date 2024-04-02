@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="img/logo.jpeg" alt="logo logo" class="logo" width="150" height="55" >
+            <h3>+1-(888)-(888)-(8888)</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <form action="#" method="GET">
+            
+            <div class="whole">
+                <h1>Donate, Save Lives</h1>
+                <div class="infor">
+                    <h3>Your Information</h3>
+                    <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                </div>
+                
+                <div class="purpose">
+                    <label for="purpose"><strong style="color:rgba(0, 0, 255, 0.407) ; letter-spacing: 2px;">Select Donation Purpose:</strong></label><br>
+                    <select id="purpose" name="purpose" required>
+                        <option value="">Select Purpose</option>
+                        <option value="Medical Supplies">Medical Supplies</option>
+                        <option value="Food Assistance">Food Assistance</option>
+                        <option value="Education Support">Education Support</option>
+                        <option value="Emergency Relief">Emergency Relief</option>
+                        <option value="Homeless Shelter">Homeless Shelter</option>
+                </select><br><br>
+                </div>
+                <div class="dona">
+
+                <span ><strong style="color:rgba(0, 0, 255, 0.407) ; letter-spacing: 2px;">Donation Amount:</strong></span><br>
+                <input type="radio" id="amount10" name="amount" value="10" checked required>
+                <label for="amount10">$10</label><br>
+                <input type="radio" id="amount25" name="amount" value="25" required>
+                <label for="amount25">$25</label><br>
+                <input type="radio" id="amount50" name="amount" value="50" required>
+                <label for="amount50">$50</label><br>
+                <input type="radio" id="amount100" name="amount" value="100" required>
+                <label for="amount100">$100</label><br><br>
+        
+                <span><strong style="color:rgba(0, 0, 255, 0.407) ; letter-spacing: 2px;">Donation Frequency:</strong></span><br>
+                <input type="radio" id="once" name="frequency" value="once" checked required>
+                <label for="once">One-Time</label><br>
+                <input type="radio" id="monthly" name="frequency" value="monthly" required>
+                <label for="monthly">Monthly</label><br><br>
+
+                <label style="color:rgba(0, 0, 255, 0.407) ;"><strong>Donation In:</strong></label><br>
+                <input type="checkbox" id="memory" name="memory" value="memory" checked>
+                <label for="memory">In Memory</label><br>
+                 <input type="checkbox" id="honor" name="honor" value="honor">
+                <label for="honor">In Honor</label><br><br>
+
+                </div>
+
+                <div class="message">
+
+                    <label for="message"><strong style="color:rgba(0, 0, 255, 0.407) ; letter-spacing: 2px;">Message:</strong></label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+                    <input type="submit" value="Donate Now">
+                </div>
+               
+        
+           
+            </div>
+
+            
+            </form>
+        <img src="img/form.jpeg" alt="">
+    </main>
+</body>
+</html>
